@@ -6,5 +6,5 @@ def is_palindrome(n):
  		else :
  			pass
  	return True
-output = filter(is_palindrome, range(1, 10000))
+output = filter(is_palindrome, range(1, 20000))
 print(list(output))
