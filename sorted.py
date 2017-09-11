@@ -7,3 +7,4 @@ def  by_score(t):
 	return t[1]
 L2=sorted(L,key=by_score)
 print(L2)
+pass
